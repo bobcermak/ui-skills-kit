@@ -1,7 +1,7 @@
 {
   "name": "ui-skills-kit",
   "version": "2.0.0",
-  "description": "Claude skill kit: 16 premium section layouts with reference wireframes, automatic section → layout mapping, anti-AI typography rules, CSS grid + three.js / R3F recipes — plus Vercel's find-skills",
+  "description": "Claude skill kit: 16 premium section layouts with reference wireframes, automatic section → layout mapping, anti-AI typography rules, CSS grid + three.js / R3F recipes - plus Vercel's find-skills",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bobcermak/ui-skills-kit.git"

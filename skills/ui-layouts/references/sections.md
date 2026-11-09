@@ -17,31 +17,31 @@ Go down the rows for that section type and take the first one whose content sign
 | | app or SaaS screenshot | L03 Centered Showcase |
 | | single product with price | L14 Product Spotlight |
 | | several products / premium gear | L15 Angular Bento |
-| | 3–6 slides with titles (rooms, tours, events) | L09 Arch Frame |
-| | 6–8 small images, playful brand | L04 Orbit Scatter |
-| | 8–14 gallery items | L06 Perspective Tunnel |
+| | 3-6 slides with titles (rooms, tours, events) | L09 Arch Frame |
+| | 6-8 small images, playful brand | L04 Orbit Scatter |
+| | 8-14 gallery items | L06 Perspective Tunnel |
 | | 3 key visuals (fashion, music, posters) | L10 Light Smear Carousel |
 | | many content types (video + text + cards) | L13 Bento Triptych, or L08 Warped Collage when 3D is wanted |
 | | startup, huge title, two CTAs | L16 Arc Halo |
 | | one launch CTA, bold brand | L12 Stepped Funnel |
 | | no imagery, one strong sentence | L05 Minimal Center |
-| **Features / services** | 4–7 items of mixed weight | L13 Bento Triptych |
+| **Features / services** | 4-7 items of mixed weight | L13 Bento Triptych |
 | | premium / outdoor / sport product features | L15 Angular Bento |
-| | 2–3 big features | L02 Anchored Split, repeated with sides alternating |
+| | 2-3 big features | L02 Anchored Split, repeated with sides alternating |
 | | one feature + product screenshot | L03 Centered Showcase |
 | **About / story / team** | portrait or team photo + text | L02 Anchored Split |
 | | place photo (restaurant, venue, studio) | L01 Title Banner |
 | | manifesto, values, no photo | L05 Minimal Center |
 | **Gallery / portfolio / work** | 3 hero pieces | L10 Light Smear Carousel |
-| | 6–8 pieces, playful | L04 Orbit Scatter |
-| | 8–14 pieces | L06 Perspective Tunnel |
+| | 6-8 pieces, playful | L04 Orbit Scatter |
+| | 8-14 pieces | L06 Perspective Tunnel |
 | | case studies, collections, timeline | L07 Spiral Ring |
 | | archive, posters, 15+ pieces | L11 Cascading Deck |
 | **Product / shop** | single product detail | L14 Product Spotlight |
-| | product range, 3–5 products | L15 Angular Bento |
-| **Slideshow content** (rooms, events, tour dates, testimonials with photos) | 3–12 items with index + title | L09 Arch Frame |
+| | product range, 3-5 products | L15 Angular Bento |
+| **Slideshow content** (rooms, events, tour dates, testimonials with photos) | 3-12 items with index + title | L09 Arch Frame |
 | **Press / blog / media mix** | video + articles + quotes | L08 Warped Collage (3D) or L13 Bento Triptych |
-| **Stats / numbers** | 3–6 numbers | L13 Bento Triptych (one number per tile) |
+| **Stats / numbers** | 3-6 numbers | L13 Bento Triptych (one number per tile) |
 | **CTA / signup / closing** | one action, bold | L12 Stepped Funnel |
 | | two actions, product launch | L16 Arc Halo |
 | | quiet, text-led | L05 Minimal Center |
@@ -73,7 +73,7 @@ Run these over the whole page after picking each section:
 
 | Section | Content signal | 3D-mode layout |
 |---|---|---|
-| **Hero** (always 3D) | 8–14 images / work | L06 Perspective Tunnel (3D) |
+| **Hero** (always 3D) | 8-14 images / work | L06 Perspective Tunnel (3D) |
 | | 3 key visuals | L10 Light Smear Carousel (3D) |
 | | collections, case studies | L07 Spiral Ring (3D) |
 | | mixed media (video + text + cards) | L08 Warped Collage (3D) |

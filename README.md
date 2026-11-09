@@ -71,7 +71,7 @@ Or name a layout:
 
 > Make the hero for the guesthouse site as **L09 Arch Frame**, with the 5 room photos as slides.
 
-Claude reads your content (number of images, title length, CTAs…), picks the layout from the section map, checks the wireframe, and builds it. Page-level rules keep it varied: no layout repeats, at most one 3D section per page, and dense and airy sections alternate. Ask for options and it shows 2–3 candidates instead.
+Claude reads your content (number of images, title length, CTAs…), picks the layout from the section map, checks the wireframe, and builds it. Page-level rules keep it varied: no layout repeats, at most one 3D section per page, and dense and airy sections alternate. Ask for options and it shows 2-3 candidates instead.
 
 ## Layouts
 
@@ -81,14 +81,14 @@ Every layout ships with a reference wireframe in `skills/ui-layouts/assets/layou
 |----|---------|------|------|----------|
 | L01 | <img src="skills/ui-layouts/assets/layouts/L01-title-banner.png" width="140" alt="Title Banner wireframe"> | Title Banner | CSS | Strong headline + one wide photo (restaurants, guesthouses) |
 | L02 | <img src="skills/ui-layouts/assets/layouts/L02-anchored-split.png" width="140" alt="Anchored Split wireframe"> | Anchored Split | CSS | Editorial / portfolio, one tall portrait image |
-| L03 | <img src="skills/ui-layouts/assets/layouts/L03-centered-showcase.png" width="140" alt="Centered Showcase wireframe"> | Centered Showcase | CSS | SaaS / app — headline, CTA, product screenshot below |
+| L03 | <img src="skills/ui-layouts/assets/layouts/L03-centered-showcase.png" width="140" alt="Centered Showcase wireframe"> | Centered Showcase | CSS | SaaS / app - headline, CTA, product screenshot below |
 | L04 | <img src="skills/ui-layouts/assets/layouts/L04-orbit-scatter.png" width="140" alt="Orbit Scatter wireframe"> | Orbit Scatter | CSS / 3D-lite | Creative studio, many small images, playful |
 | L05 | <img src="skills/ui-layouts/assets/layouts/L05-minimal-center.png" width="140" alt="Minimal Center wireframe"> | Minimal Center | CSS | Text-led, agency, manifesto, no imagery |
-| L06 | <img src="skills/ui-layouts/assets/layouts/L06-perspective-tunnel.png" width="140" alt="Perspective Tunnel wireframe"> | Perspective Tunnel | **3D** | Gallery / portfolio with 8–14 items, "journey" feel |
+| L06 | <img src="skills/ui-layouts/assets/layouts/L06-perspective-tunnel.png" width="140" alt="Perspective Tunnel wireframe"> | Perspective Tunnel | **3D** | Gallery / portfolio with 8-14 items, "journey" feel |
 | L07 | <img src="skills/ui-layouts/assets/layouts/L07-spiral-ring.png" width="140" alt="Spiral Ring wireframe"> | Spiral Ring | **3D** / CSS | Collections, case studies, timeline of work |
 | L08 | <img src="skills/ui-layouts/assets/layouts/L08-warped-collage.png" width="140" alt="Warped Collage wireframe"> | Warped Collage | **3D** | Content-rich brand: media + text + cards floating |
 | L09 | <img src="skills/ui-layouts/assets/layouts/L09-arch-frame.png" width="140" alt="Arch Frame wireframe"> | Arch Frame | CSS (SVG mask) | Slideshow with index number + title, event, tour |
-| L10 | <img src="skills/ui-layouts/assets/layouts/L10-light-smear-carousel.png" width="140" alt="Light Smear Carousel wireframe"> | Light Smear Carousel | **3D** shader | Fashion, music, posters — 3 hero visuals |
+| L10 | <img src="skills/ui-layouts/assets/layouts/L10-light-smear-carousel.png" width="140" alt="Light Smear Carousel wireframe"> | Light Smear Carousel | **3D** shader | Fashion, music, posters - 3 hero visuals |
 | L11 | <img src="skills/ui-layouts/assets/layouts/L11-cascading-deck.png" width="140" alt="Cascading Deck wireframe"> | Cascading Deck | **3D** | Archive / editorial, many posters, scroll-driven |
 | L12 | <img src="skills/ui-layouts/assets/layouts/L12-stepped-funnel.png" width="140" alt="Stepped Funnel wireframe"> | Stepped Funnel | CSS (clip-path) | Bold launch page, single CTA |
 | L13 | <img src="skills/ui-layouts/assets/layouts/L13-bento-triptych.png" width="140" alt="Bento Triptych wireframe"> | Bento Triptych | CSS grid | Brand / product overview with many small modules |
@@ -100,16 +100,16 @@ Every layout ships with a reference wireframe in `skills/ui-layouts/assets/layou
 
 The skill makes Claude follow these on every build:
 
-- **No wireframes** — placeholder regions are always filled with real content, typography and your brand palette.
-- **Text stays in the DOM** — headings and CTAs are HTML (SEO, a11y); three.js renders only imagery and background.
-- **3D is progressive enhancement** — `prefers-reduced-motion`, no WebGL or low-end mobile get a static composition.
-- **One hero, one idea** — a single signature effect per section.
-- **3D mode** — say "three.js" / "R3F" / "3D site" and the whole page is mapped: 3D hero, up to 3 coherent 3D sections (never adjacent, one shared canvas, one scene language), text sections stay CSS.
-- **Section-aware** — layouts adapt to inner sections (no nav, `<h2>`, auto height), never repeat on a page.
-- **Typography that isn't AI-default** — pairings by brand character, no Inter/Poppins/Montserrat headlines, no gradient text, tabular numbers, real quotes and non-breaking spaces (Czech-aware).
-- **Mobile first-class** — every layout has its own collapse rule, checked at 375 px with no horizontal scroll.
-- **Craft** — deliberate type scale, spacing, color and motion timing, even when the project has no brand yet.
-- **Performance** — capped DPR, paused off-screen rendering, LCP image never blocked by the canvas.
+- **No wireframes** - placeholder regions are always filled with real content, typography and your brand palette.
+- **Text stays in the DOM** - headings and CTAs are HTML (SEO, a11y); three.js renders only imagery and background.
+- **3D is progressive enhancement** - `prefers-reduced-motion`, no WebGL or low-end mobile get a static composition.
+- **One hero, one idea** - a single signature effect per section.
+- **3D mode** - say "three.js" / "R3F" / "3D site" and the whole page is mapped: 3D hero, up to 3 coherent 3D sections (never adjacent, one shared canvas, one scene language), text sections stay CSS.
+- **Section-aware** - layouts adapt to inner sections (no nav, `<h2>`, auto height), never repeat on a page.
+- **Typography that isn't AI-default** - pairings by brand character, no Inter/Poppins/Montserrat headlines, no gradient text, tabular numbers, real quotes and non-breaking spaces (Czech-aware).
+- **Mobile first-class** - every layout has its own collapse rule, checked at 375 px with no horizontal scroll.
+- **Craft** - deliberate type scale, spacing, color and motion timing, even when the project has no brand yet.
+- **Performance** - capped DPR, paused off-screen rendering, LCP image never blocked by the canvas.
 
 ## Stack
 
@@ -117,7 +117,7 @@ The skill makes Claude follow these on every build:
 - **Vanilla:** `three` with the same math
 - **Animation:** GSAP or Framer Motion for DOM, `useFrame` + damping for 3D, Lenis or drei `ScrollControls` for scroll
 
-The skill only contains instructions — it adds no runtime dependencies to your project.
+The skill only contains instructions - it adds no runtime dependencies to your project.
 
 ## What's inside
 
@@ -125,7 +125,7 @@ The skill only contains instructions — it adds no runtime dependencies to your
 bin/install.js                    installer (skills + find-skills)
 skills/ui-layouts/
 ├── SKILL.md                      rules, workflow, decision table
-├── assets/layouts/               16 reference wireframes (L01–L16)
+├── assets/layouts/               16 reference wireframes (L01-L16)
 └── references/
     ├── layouts.md                all 16 layouts: regions, grid recipe, mobile rule
     ├── sections.md               section → layout map + page-level rules
@@ -136,7 +136,7 @@ skills/ui-layouts/
 
 ## Contributing
 
-Ideas for new layouts or fixes are welcome — open an issue or a PR. New layouts should include a wireframe PNG, regions, a grid recipe, a mobile rule and a row in `sections.md`, following the format in `skills/ui-layouts/references/layouts.md`.
+Ideas for new layouts or fixes are welcome - open an issue or a PR. New layouts should include a wireframe PNG, regions, a grid recipe, a mobile rule and a row in `sections.md`, following the format in `skills/ui-layouts/references/layouts.md`.
 
 ## License
 

@@ -1,6 +1,6 @@
 # three.js / R3F patterns
 
-All snippets are React Three Fiber. For vanilla three.js, the math is identical — create meshes in a loop and update them in the render loop.
+All snippets are React Three Fiber. For vanilla three.js, the math is identical - create meshes in a loop and update them in the render loop.
 
 ## Shared setup
 
@@ -36,7 +36,7 @@ At runtime, wrap the scene in drei `<PerformanceMonitor onDecline={() => setUse3
 
 Loop wrap rule: every looping pattern below moves items with `t = ((i / N + scroll) % 1 + 1) % 1`. When `t` wraps 1 → 0 the item teleports, so **scale it to 0 near the wrap point** (`fadeEdge` below). Never let an item jump while it is visible.
 
-Aspect rule: drei `<Image scale={[w, h]}>` sets the mesh scale. Animating with `m.scale.setScalar(s)` turns every image into a square — always use `m.scale.set(w * s, h * s, 1)`.
+Aspect rule: drei `<Image scale={[w, h]}>` sets the mesh scale. Animating with `m.scale.setScalar(s)` turns every image into a square - always use `m.scale.set(w * s, h * s, 1)`.
 
 ```ts
 // 1 in the middle of the range, eases to 0 within `edge` of both ends
@@ -196,7 +196,7 @@ Postprocessing:
   </PresentationControls>
 </Stage>
 ```
-Compress GLB with `gltf-transform optimize` (draco/meshopt + webp textures) — target < 2 MB.
+Compress GLB with `gltf-transform optimize` (draco/meshopt + webp textures) - target < 2 MB.
 
 ## Multiple 3D sections (3D mode)
 
